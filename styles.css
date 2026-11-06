@@ -10,7 +10,7 @@ body{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	background-color:black;
+	
 }
 .container{
 	background-color:black;
@@ -21,9 +21,9 @@ body{
     grid-template-rows:repeat(20,1fr);
 	gap:4px;
 }
-.box{
+.square{
 	background-color:grey;
 	cursor:pointer;
-	transition:background 0.8s;
+	transition: background 1s;
 }
 

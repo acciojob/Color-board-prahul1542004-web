@@ -2,7 +2,7 @@
 const container=document.querySelector(".container")
 for(let i=0;i<800;i++){
     let boxes=document.createElement("div")
-	boxes.classList.add("box")
+	boxes.classList.add("square")
 
 	boxes.addEventListener("mouseenter",(e)=>{
 		let red=Math.floor(Math.random()*256)
