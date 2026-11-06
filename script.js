@@ -12,7 +12,7 @@ for(let i=0;i<800;i++){
 	})
 	boxes.addEventListener("mouseout",(e)=>{
 		setTimeout(()=>{
-			e.target.style.backgroundColor="grey"
+			e.target.style.backgroundColor="rgb(53,52,52)"
 		},1000)
 	})
 	container.appendChild(boxes)
